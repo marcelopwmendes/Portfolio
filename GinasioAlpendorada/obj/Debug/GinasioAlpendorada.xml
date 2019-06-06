@@ -1,0 +1,252 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+GinasioAlpendorada
+</name>
+</assembly>
+<members>
+<member name="P:GinasioAlpendorada.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:GinasioAlpendorada.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:GinasioAlpendorada.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:GinasioAlpendorada.Base_de_Dados_v2DataSet.AtividadeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:GinasioAlpendorada.Base_de_Dados_v2DataSet.ClienteDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:GinasioAlpendorada.Base_de_Dados_v2DataSet.ExercicioDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:GinasioAlpendorada.Base_de_Dados_v2DataSet.FaturaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:GinasioAlpendorada.Base_de_Dados_v2DataSet.MonitorDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:GinasioAlpendorada.Base_de_Dados_v2DataSet.PlanoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:GinasioAlpendorada.Base_de_Dados_v2DataSet.FuncionarioDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:GinasioAlpendorada.Base_de_Dados_v2DataSet.InscriçãoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:GinasioAlpendorada.Base_de_Dados_v2DataSet.MensalidadeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:GinasioAlpendorada.Base_de_Dados_v2DataSet._Plano_ExercicioDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:GinasioAlpendorada.Base_de_Dados_v2DataSet.DiaSemanaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:GinasioAlpendorada.Base_de_Dados_v2DataSet.AulaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:GinasioAlpendorada.Base_de_Dados_v2DataSet.AtividadeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:GinasioAlpendorada.Base_de_Dados_v2DataSet.ClienteRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:GinasioAlpendorada.Base_de_Dados_v2DataSet.ExercicioRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:GinasioAlpendorada.Base_de_Dados_v2DataSet.FaturaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:GinasioAlpendorada.Base_de_Dados_v2DataSet.MonitorRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:GinasioAlpendorada.Base_de_Dados_v2DataSet.PlanoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:GinasioAlpendorada.Base_de_Dados_v2DataSet.FuncionarioRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:GinasioAlpendorada.Base_de_Dados_v2DataSet.InscriçãoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:GinasioAlpendorada.Base_de_Dados_v2DataSet.MensalidadeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:GinasioAlpendorada.Base_de_Dados_v2DataSet._Plano_ExercicioRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:GinasioAlpendorada.Base_de_Dados_v2DataSet.DiaSemanaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:GinasioAlpendorada.Base_de_Dados_v2DataSet.AulaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:GinasioAlpendorada.Base_de_Dados_v2DataSet.AtividadeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:GinasioAlpendorada.Base_de_Dados_v2DataSet.ClienteRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:GinasioAlpendorada.Base_de_Dados_v2DataSet.ExercicioRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:GinasioAlpendorada.Base_de_Dados_v2DataSet.FaturaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:GinasioAlpendorada.Base_de_Dados_v2DataSet.MonitorRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:GinasioAlpendorada.Base_de_Dados_v2DataSet.PlanoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:GinasioAlpendorada.Base_de_Dados_v2DataSet.FuncionarioRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:GinasioAlpendorada.Base_de_Dados_v2DataSet.InscriçãoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:GinasioAlpendorada.Base_de_Dados_v2DataSet.MensalidadeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:GinasioAlpendorada.Base_de_Dados_v2DataSet._Plano_ExercicioRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:GinasioAlpendorada.Base_de_Dados_v2DataSet.DiaSemanaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:GinasioAlpendorada.Base_de_Dados_v2DataSet.AulaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:GinasioAlpendorada.Base_de_Dados_v2DataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:GinasioAlpendorada.Base_de_Dados_v2DataSetTableAdapters.AtividadeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:GinasioAlpendorada.Base_de_Dados_v2DataSetTableAdapters.ClienteTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:GinasioAlpendorada.Base_de_Dados_v2DataSetTableAdapters.ExercicioTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:GinasioAlpendorada.Base_de_Dados_v2DataSetTableAdapters.FaturaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:GinasioAlpendorada.Base_de_Dados_v2DataSetTableAdapters.MonitorTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:GinasioAlpendorada.Base_de_Dados_v2DataSetTableAdapters.PlanoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:GinasioAlpendorada.Base_de_Dados_v2DataSetTableAdapters.FuncionarioTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:GinasioAlpendorada.Base_de_Dados_v2DataSetTableAdapters.InscriçãoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:GinasioAlpendorada.Base_de_Dados_v2DataSetTableAdapters.MensalidadeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:GinasioAlpendorada.Base_de_Dados_v2DataSetTableAdapters.Plano_ExercicioTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:GinasioAlpendorada.Base_de_Dados_v2DataSetTableAdapters.DiaSemanaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:GinasioAlpendorada.Base_de_Dados_v2DataSetTableAdapters.AulaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:GinasioAlpendorada.Base_de_Dados_v2DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(GinasioAlpendorada.Base_de_Dados_v2DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:GinasioAlpendorada.Base_de_Dados_v2DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(GinasioAlpendorada.Base_de_Dados_v2DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:GinasioAlpendorada.Base_de_Dados_v2DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(GinasioAlpendorada.Base_de_Dados_v2DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:GinasioAlpendorada.Base_de_Dados_v2DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:GinasioAlpendorada.Base_de_Dados_v2DataSetTableAdapters.TableAdapterManager.UpdateAll(GinasioAlpendorada.Base_de_Dados_v2DataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:GinasioAlpendorada.Base_de_Dados_v2DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:GinasioAlpendorada.Base_de_Dados_v2DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:GinasioAlpendorada.Base_de_Dados_v2DataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>

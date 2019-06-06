@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{406A0306-68F4-449B-AB13-365C27CE2671}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>GinasioAlpendorada.My.MyApplication</StartupObject>
+    <RootNamespace>GinasioAlpendorada</RootNamespace>
+    <AssemblyName>GinasioAlpendorada</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>GinasioAlpendorada.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>GinasioAlpendorada.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon 125x125.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base_de_Dados_v2DataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Base_de_Dados_v2DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Base_de_Dados_v2DataSet.vb">
+      <DependentUpon>Base_de_Dados_v2DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Atividade.vb" />
+    <Compile Include="Classes\Aula.vb" />
+    <Compile Include="Classes\Cliente.vb" />
+    <Compile Include="Classes\Exercício.vb" />
+    <Compile Include="Classes\Fatura.vb" />
+    <Compile Include="Classes\FormUtils.vb" />
+    <Compile Include="Classes\Inscricao.vb" />
+    <Compile Include="Classes\Mensalidade.vb" />
+    <Compile Include="Classes\Monitor.vb" />
+    <Compile Include="Classes\Funcionario.vb" />
+    <Compile Include="Classes\Plano.vb" />
+    <Compile Include="Formulários\Escolhas\FormEscolhaAtividade.Designer.vb">
+      <DependentUpon>FormEscolhaAtividade.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\Escolhas\FormEscolhaAtividade.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\Escolhas\FormEscolhaCliente.Designer.vb">
+      <DependentUpon>FormEscolhaCliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\Escolhas\FormEscolhaCliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\Faturas\FormFaturas.Designer.vb">
+      <DependentUpon>FormFaturas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\Faturas\FormFaturas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\FormAtividades.Designer.vb">
+      <DependentUpon>FormAtividades.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\FormAtividades.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\FormCliente.Designer.vb">
+      <DependentUpon>FormCliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\FormCliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\FormEntrarSair.Designer.vb">
+      <DependentUpon>FormEntrarSair.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\FormEntrarSair.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\FormFuncionario.Designer.vb">
+      <DependentUpon>FormFuncionario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\FormFuncionario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\FormClientesAtrasadosOuInativos.Designer.vb">
+      <DependentUpon>FormClientesAtrasadosOuInativos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\FormClientesAtrasadosOuInativos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\FormInscrições.Designer.vb">
+      <DependentUpon>FormInscrições.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\FormInscrições.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\FormMarcarAulas.Designer.vb">
+      <DependentUpon>FormMarcarAulas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\FormMarcarAulas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\FormMensalidade.Designer.vb">
+      <DependentUpon>FormMensalidade.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\FormMensalidade.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\FormMonitor.Designer.vb">
+      <DependentUpon>FormMonitor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\FormMonitor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\FormVerAtividades.Designer.vb">
+      <DependentUpon>FormVerAtividades.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\FormVerAtividades.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\Inscrição.Designer.vb">
+      <DependentUpon>Inscrição.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\Inscrição.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\VerAulas.Designer.vb">
+      <DependentUpon>VerAulas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\VerAulas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatórios\FaturaReport.Designer.vb">
+      <DependentUpon>FaturaReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Relatórios\FaturaReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatórios\ListarClientesReport.Designer.vb">
+      <DependentUpon>ListarClientesReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Relatórios\ListarClientesReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\LogIn.Designer.vb">
+      <DependentUpon>LogIn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\LogIn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Formulários\FormPrincipal.Designer.vb">
+      <DependentUpon>FormPrincipal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\FormPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Formulários\Escolhas\FormEscolhaAtividade.resx">
+      <DependentUpon>FormEscolhaAtividade.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulários\FormAtividades.resx">
+      <DependentUpon>FormAtividades.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulários\FormCliente.resx">
+      <DependentUpon>FormCliente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulários\FormClientesAtrasadosOuInativos.resx">
+      <DependentUpon>FormClientesAtrasadosOuInativos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulários\FormEntrarSair.resx">
+      <DependentUpon>FormEntrarSair.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulários\FormInscrições.resx">
+      <DependentUpon>FormInscrições.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulários\FormMarcarAulas.resx">
+      <DependentUpon>FormMarcarAulas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulários\FormMensalidade.resx">
+      <DependentUpon>FormMensalidade.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulários\FormMonitor.resx">
+      <DependentUpon>FormMonitor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulários\FormVerAtividades.resx">
+      <DependentUpon>FormVerAtividades.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulários\Inscrição.resx">
+      <DependentUpon>Inscrição.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulários\VerAulas.resx">
+      <DependentUpon>VerAulas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatórios\Fatura.rdlc" />
+    <EmbeddedResource Include="Relatórios\FaturaReport.resx">
+      <DependentUpon>FaturaReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatórios\ListarClientesReport.resx">
+      <DependentUpon>ListarClientesReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatórios\ListarClientes.rdlc" />
+    <EmbeddedResource Include="Formulários\Escolhas\FormEscolhaCliente.resx">
+      <DependentUpon>FormEscolhaCliente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulários\Faturas\FormFaturas.resx">
+      <DependentUpon>FormFaturas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulários\FormFuncionario.resx">
+      <DependentUpon>FormFuncionario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulários\LogIn.resx">
+      <DependentUpon>LogIn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatórios\Relatorio.rdlc" />
+    <EmbeddedResource Include="Formulários\FormPrincipal.resx">
+      <DependentUpon>FormPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Base_de_Dados_v2DataSet.xsc">
+      <DependentUpon>Base_de_Dados_v2DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Base_de_Dados_v2DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Base_de_Dados_v2DataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Base_de_Dados_v2DataSet.xss">
+      <DependentUpon>Base_de_Dados_v2DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>PublicSettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Base de Dados v2.accdb" />
+    <Content Include="Icon 125x125.ico" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
